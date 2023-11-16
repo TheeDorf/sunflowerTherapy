@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.home {
+  background-color: #ffd700; /* Sunflower color */
+  /* Add other styles for the home page */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stretch-image {
+  width: 100%;
+  height: auto;
+  /* Additional styles as needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about {
+  background-color: #ffd700; /* Sunflower color */
+  /* Add other styles for the about page */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact {
+  background-color: #ffd700; /* Sunflower color */
+  /* Add other styles for the contact page */
+}
+
+.faq {
+  background-color: #ffd700; /* Sunflower color */
+  /* Add other styles for the FAQ page */
+}
+
+nav {
+  background-color: #ffd700; /* Sunflower color */
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  margin: 0;
+  padding: 0;
 }
