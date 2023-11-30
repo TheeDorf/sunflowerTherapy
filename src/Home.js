@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home">
       
-      <img src="/sunflowerSunset.jpeg" alt="Sunflower Sunset" className="stretch-image" />
+      <img src="/sunflower2.jpg" alt="Sunflower Sunset" className="stretch-image" />
       <h1>Sunflower Therapy Co</h1>
       {/* Add your content for the home page */}
     </div>
