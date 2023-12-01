@@ -23,7 +23,15 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>Contact</h2>
+
+      {/* Form Section */}
       <div id="ff-compose"></div>
+
+      {/* Visit Us Section */}
+      <div className="visit-us">
+        <h3>Visit Us</h3>
+        <p>302 West Grand Ave. Suite 9<br />El Segundo, CA 90245</p>
+      </div>
     </div>
   );
 };
